@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'lora';
+    src: url('polices/lora.eot') format('eot'),
+    url('polices/lora.svg') format('svg'),
+    url('polices/lora.ttf') format('ttf'),
+    url('polices/lora.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background-color: rgb(250, 238,224);
+}
+
+#Bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+ h1 h2 h3 p
+{
+    font-family: 'lora',Verdana, arial, sans-serif;
+}
+
+h1
+{
+    color: black;
+    font-style: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2
+{
+    color: black;
+    font-style: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: baseline;
+ 
+}
+
+h3
+{
+    font-style: italic;
+    
+}
+
+strong
+{
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+header
+{
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background: url(image/separateur.png) repeat-x bottom;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-left: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover
+{
+    color:  rgb(229,186,172);
+    border-bottom: 3px solid  rgb(229,186,172);
+}
+
+a:hover
+{
+    color:  rgb(204,133,128);
+}
+
+#photo-AG 
+{
+    width: 200px;
+    display:flex;
+    margin-left: 15px;
+}
+
+#contact
+{
+    text-align: left;
+    margin-left: 55px;
+}
+ 
+section
+{
+    display:flex;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+
+ aside
+{ 
+    background-color: rgb(229,186,172);
+}
+
+#formation
+{
+   text-align: right ;
+   padding: 10px 10px 10px 10px;
+}
+
+article
+{
+    background-color: rgb(250, 238,224);
+    text-align: justify;
+    margin:auto;
+    padding-left: 200px ;  
+}
+
+article ul
+{
+    list-style-type: circle;
+}
+
+footer 
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; 
+}
+
+figcaption
+{
+    text-align: center;  
+}
