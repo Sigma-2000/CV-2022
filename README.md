@@ -1,4 +1,4 @@
-# Sigma-2000.github.io
+# CV 2022
 
 A CV/Portfolio website project. First step: creation of a CV template in HTML and CSS. Second step: creation of the complete site designed with React. Addition of an online store and different works made in Js vanilla...
 
